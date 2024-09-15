@@ -21,13 +21,17 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              "src/app/angular/img",
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -91,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "043c3438-d242-4c72-9490-5cc5eb71be79"
   }
 }
